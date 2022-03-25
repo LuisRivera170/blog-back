@@ -1,0 +1,15 @@
+spring:
+  profiles: dev
+  datasource:
+    url: jdbc:postgresql://localhost:5432/blog
+    username: adminpost
+    password: M69k*4J$Pa!f
+  driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect:
+          format_sql: true
+    show-sql: true
